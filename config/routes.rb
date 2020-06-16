@@ -5,4 +5,6 @@ Rails.application.routes.draw do
    root to: "pages#home"
   #  get "pages/:names", to: "pages#home"
    get "/contact", to:"pages#contact", as: "contact"
+
+   get "/products", to: "products#index", as: "products"
 end
